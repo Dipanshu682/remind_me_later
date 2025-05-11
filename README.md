@@ -34,6 +34,31 @@ POST /api/reminders/
 
 ---
 
+## Sample Request (POST /api/reminders/)
+
+```
+{
+  "message": "Doctor appointment",
+  "date": "2025-05-12",
+  "time": "10:30:00",
+  "remind_via": "sms"
+}
+```
+
+## Sample Response
+
+```
+{
+  "id": 1,
+  "message": "Doctor appointment",
+  "date": "2025-05-12",
+  "time": "10:30:00",
+  "remind_via": "sms"
+}
+```
+
+---
+
 ## Setup Locally
 
 # 1. Clone the repository
